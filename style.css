@@ -1,0 +1,56 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: auto;
+}
+
+#particles-js {
+    background: linear-gradient(rgba(5, 97, 163, 0.418), rgba(14, 231, 14, 0.356));
+    height: 100vh;
+    width: auto;
+}
+
+.container-fluid {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    position: absolute;
+}
+
+.display {
+    color: rgb(43, 22, 22);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.buttons>button {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.buttons>button, .buttons>button:active, .buttons>button:focus {
+    border: none;
+    outline: none;
+}
+
+.fa-play-circle, .fa-pause-circle, .fa-redo, .fa-flag {
+    color: black;
+}
+.stopwatch-icon{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.heading{
+    font-size: 60px;
+    padding-bottom: 10px;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+}
